@@ -1,0 +1,162 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list{
+    margin: 0;
+}
+
+.list-item{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 45px;
+    font-size: larger;
+}
+
+.list-item:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.search-icon svg {
+    height: 25px;
+    width: 25px;
+    font-weight:lighter;
+}
+
+.nav-button{
+    height: 32px;
+    width: 150px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    font-size: 18px;
+    color: #626161;
+}
+
+.button-group{
+    display: flex;
+}
+
+.search-icon{
+    margin-top: 5px;
+    margin-right: 5px
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-container{
+    margin: 3vh;
+}
+
+.star img{
+    height: 4vw;
+    width: 4vw;
+} 
+
+.star{
+    height: 6vw;
+    width: 6vw;
+    position: relative;
+    bottom: 35vh;
+    left: 70vw;
+}
+
+.globe img{
+    height: 4vw;
+    width: 4vw;
+
+}
+.globe{
+    height: 4vw;
+    width: 4vw;
+    position: relative;
+    bottom: 40vh;
+    left: 30%;
+}
+
+.hero-image img{
+    width: 25vw;
+    height: 30vw;
+}
+
+.hero-image{
+    width: 25vw;
+    height: 30vw;
+    position: relative;
+    bottom: 45vh;
+    left: 2vw;
+}
+
+.square img{
+    width: 25vw;
+    height: 30vw;
+}
+
+.square{
+    width: 25vw;
+    height: 30vw;
+    position: relative;
+    top: 32vh;
+    left: 8vw;
+}
+
+.hero-container-right{
+    text-align: center;
+}
+
+.hero-heading{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 2vh;
+}
+
+.hero-description{
+    width: 60%;
+    margin: auto;
+    color: #626161;
+}
+
+.button-email{
+    height: 35px;
+    width: 175px;
+    border-radius: 8px;
+    border-color: #666262;
+    color: #626161;
+    font-size: 15px;
+    margin-top: 5vh;
+}
+
+.button-join{
+    height: 35px;
+    width: 120px;
+    border-radius: 8px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 5vh;
+}
+
+.contact-heading{
+    color: #626161;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 5vh;
+}
+
+.hero-container-right{
+    width: 50vw;
+}
+
+.hero-container{
+    position: relative;
+}
+
+.hero-container-right{
+    position: absolute;
+    top: 40vh;
+    right: 6vw;
+}
